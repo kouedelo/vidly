@@ -2,7 +2,7 @@ import http from "./httpServices";
 import { apiEndpoint } from "../config.json";
 import jwtDecode from "jwt-decode";
 
-const authEndpoint = apiEndpoint + "/auth";
+const authEndpoint = "/auth";
 
 const tokenKey = "token";
 

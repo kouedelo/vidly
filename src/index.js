@@ -8,6 +8,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
 import logger from "./services/logService";
 
+console.log('SUPERMAN', process.env.REACT_APP_NAME);
+
 logger.init();
 
 ReactDOM.render(
